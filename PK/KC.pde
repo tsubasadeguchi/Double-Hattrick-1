@@ -2,8 +2,8 @@ class KC {
   int kx, ky, size;
 
   KC(int x, int y, int s) {
-    kx = x;
-    ky = y;
+    kx = x+(50/3)-(s/3);
+    ky = y+(50*3+50/3)-(s*3+s/3);
     size = s;
   }
 
