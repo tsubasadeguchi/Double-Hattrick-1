@@ -32,11 +32,3 @@ class Ground {
     stroke(255);
     ellipse(width/2, ay, 100, 100);
   }
-
-  void gArea(int gay) {
-    rectMode(CENTER);
-    fill(10, 150, 0);
-    stroke(255);
-    rect(width/2, gay, width/8, 50);
-  }
-}
